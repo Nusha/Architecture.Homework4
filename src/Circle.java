@@ -2,7 +2,7 @@
  * Класс, представляющий круг с заданным радиусом.
  */
 class Circle implements Shape {
-    private double radius;
+    private final double radius;
 
     /**
      * @param radius радиус круга

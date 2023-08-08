@@ -2,9 +2,9 @@
  * Класс, представляющий треугольник с заданными сторонами.
  */
 class Triangle implements Shape {
-    private double side1;
-    private double side2;
-    private double side3;
+    private final double side1;
+    private final double side2;
+    private final double side3;
 
     /**
      * @param side1 первая сторона треугольника
